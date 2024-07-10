@@ -1,1 +1,0 @@
-# saap_project_nextjs
