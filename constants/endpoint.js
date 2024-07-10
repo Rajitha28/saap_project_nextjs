@@ -1,0 +1,20 @@
+export const endpoints = {
+    getSubject: "subject/get",
+    getAllQuestionPapers: "question-paper/alldata",
+    getQuestionPapersById: "question-paper?subject_id",
+    getQuestionPaper: "question-paper/question_paper_id",
+    getQuestions: "questions/",
+    postUserResponseInstant: "questions/response/",
+    postUserResponseExam: "questions/response-exam-mode",
+    createCheckout: "/payment/create-checkout-session",
+    checkPaymentStatus: "/payment/check-payment-status/",
+    getInvoiceHistory: "/payment/invoices/",
+    downloadInvoicePdf: "/payment/download-invoice-pdf/",
+    getEssayQuestions: "questions/get_essay_questions?paper_id&subject_id",
+    aiPrompt: "ai/prombt",
+    updatePrompt: "/ai/update_prompt",
+    freeTrailPlan: "/payment/currentplan",
+    fetchUserList: "/role/list_user",
+    updateUser: "/role/update_user_role",
+    listUser: "/role/rolelist"
+}
